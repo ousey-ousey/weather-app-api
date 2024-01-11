@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #000000;
+}
+.card{
+    width: 90%;
+    max-width:27rem;
+    border-radius: 28px;
+    background: linear-gradient(318deg , #32327e, rgb(248 244 77));
+    z-index: 5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 2rem;
+}
+.search {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 1rem;
+    align-content: space-between;
+    align-items: center;
+}
+
+.search input{
+    outline: 0;
+    border: 0;
+    height: 40px;
+    border-radius: 20px;
+    width: 17rem;
+    padding: 1rem;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    background: white;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.search button img {
+    width: 20px;
+}
+.weather h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: ui-sans-serif;
+}
+.weather h2{
+    color: #fff;
+    font-size: 2rem;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 30px 0 0 0;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
+.col {
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+.col img {
+    max-width: 50px;
+    margin-right: 1rem;
+}
+#speed {
+    font-weight: 300;
+    font-size: 2rem;
+}
+#humi{
+    font-weight: 300;
+    font-size: 2rem;
+}
+.col p {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 2px;
+    color: #fff;
+}
+.weather{
+    display: none;
+}
+.erro p{
+    text-align: left;
+    color: red;
+    font-weight: 400;
+    padding-left: 2rem;
+    margin-top: -1rem;
+    display: none;
+}
